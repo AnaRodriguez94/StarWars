@@ -22,9 +22,4 @@ server.listen(PORT, () => {
   console.log(`Escuchando puerto http://localhost:${PORT}`);
 });
 
-
-controller.get('/', function(req, res) {
-  res.render('index', { user: req.user, title: 'Characters' });
-});
-
 module.exports = controller;
