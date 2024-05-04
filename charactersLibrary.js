@@ -1,3 +1,4 @@
+const characters = {
 {
         "id": 1,
         "name": "Luke Skywalker",
@@ -244,3 +245,4 @@
         "edited": "2014-12-20T21:17:50.325000Z",
         "url": "http://swapi.dev/api/people/10/"
       }
+}

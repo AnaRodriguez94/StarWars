@@ -5,7 +5,7 @@ const generateToken = (data) => {
 }
 const verifyToken = (token) => {
     console.log(token)
-    return jwt.verify(token, "secreteKeyPepino")
+    return jwt.verify(token, "anakinAndPadme")
 
 }
 
